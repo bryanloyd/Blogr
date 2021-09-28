@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  /* Colors */
+
+  /* Primary */
+
+  --wild-watermelon: hsl(356, 100%, 66%); /* (CTA text) */
+  --brink-pink: hsl(355, 100%, 74%); /* (CTA hover background) */
+  --regal-blue: hsl(208, 49%, 24%); /* (headings) */
+
+  /* Neutral */
+
+  --white: hsl(0, 0%, 100%); /* (text) */
+  --ghost: hsl(240, 2%, 79%); /* (footer text) */
+  --fiord: hsl(207, 13%, 34%); /* (body copy) */
+  --jaguar: hsl(240, 10%, 16%); /* (footer background) */
+
+  /* Gradient */
+
+  /* Background gradient - Intro/CTA mobile nav: */
+
+  --atomic-tangerine: hsl(13, 100%, 72%);
+  --radical-red: hsl(353, 100%, 62%);
+
+  /* Background gradient - body: */
+
+  --black-rock: hsl(237, 17%, 21%);
+  --cornflower-blue: hsl(237, 23%, 32%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
