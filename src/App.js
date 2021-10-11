@@ -1,7 +1,9 @@
+import Showcase from "./components/ShowcaseComponent";
+
 const App = () => {
   return (
     <div className="App">
-      <h1>Blogr Landing Page</h1>
+      <Showcase />
     </div>
   );
 };

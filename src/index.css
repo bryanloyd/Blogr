@@ -31,6 +31,20 @@ html {
   font-size: 62.5%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--regal-blue);
+}
+
+h1 {
+  font-size: 3.6rem;
+  letter-spacing: -1px;
+}
+
 a {
   text-decoration: none;
 }
